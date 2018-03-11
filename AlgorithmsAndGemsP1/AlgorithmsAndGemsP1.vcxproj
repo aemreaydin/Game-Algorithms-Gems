@@ -139,6 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cDIYList.h" />
+    <ClInclude Include="cDIYVector.h" />
+    <ClInclude Include="cMyList.h" />
+    <ClInclude Include="cMyMap.h" />
+    <ClInclude Include="cMyVector.h" />
+    <ClInclude Include="cPerson.h" />
+    <ClInclude Include="cSTLList.h" />
+    <ClInclude Include="cSTLMap.h" />
+    <ClInclude Include="cSTLVector.h" />
+    <ClInclude Include="iPersonMotron.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicLoader.cpp" />
+    <ClCompile Include="cDIYList.cpp" />
+    <ClCompile Include="cDIYVector.cpp" />
+    <ClCompile Include="cMyList.cpp" />
+    <ClCompile Include="cMyMap.cpp" />
+    <ClCompile Include="cMyVector.cpp" />
+    <ClCompile Include="cSTLList.cpp" />
+    <ClCompile Include="cSTLMap.cpp" />
+    <ClCompile Include="cSTLVector.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

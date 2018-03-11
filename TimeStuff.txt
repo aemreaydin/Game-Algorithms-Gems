@@ -1,0 +1,18 @@
+Generated 1000000 people
+
+STL VECTOR -- Very fast all around
+STL LIST -- Generating people slow, fast sorting which I didnt expect.
+STL MAP -- Very fast all around
+
+
+DIY Vector -- Very fast all around, bubble sort really slow due to the huge number of people with O(n2).
+Generated 10000 people.
+Sorting time 1.7 seconds.
+Generated 100000 people.
+Sorting time 172.11 seconds. So slow.
+
+DIY List -- Generating people pretty slow. Sorting is slower, much slower.
+Generated 10000 people.
+Sorting time 4.52 seconds.
+Generated 100000 people.
+Sorting time ??? -- Over 10 minutes, no finish. So slow.
